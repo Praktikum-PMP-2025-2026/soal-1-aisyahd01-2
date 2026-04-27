@@ -30,18 +30,16 @@ void median(int arr[], int n) {
 }
 
 int main() {
-    int *arr;
+    int *arr=malloc(capacity * sizeof(int));
     int size = 0, capacity = 2;
 
-    arr = (int*) malloc(capacity * sizeof(int));
 
-    int x;
-    while (scanf("%d", &x) && x != -1) {
-        if (size == capacity) {
-            capacity *= 2;
-            arr = (int*) realloc(arr, capacity * sizeof(int));
-        }
-        arr[size++] = x;
+   scanf(" %d", &input);
+    while (input!=-1){
+        arr = realloc(arr, capacity * sizeof(int));
+        arr[size-1] = input;
+        
+        scanf(" %d", &input);
     }
 
     sort(arr, size);
