@@ -30,7 +30,7 @@ void median(int arr[], int n) {
 }
 
 int main() {
-    int *arr=malloc(capacity * sizeof(int));
+    int *arr=malloc(sizeof(int));
     int size = 0; int input; int capacity=2;
 
 
