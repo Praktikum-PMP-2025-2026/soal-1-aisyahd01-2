@@ -36,7 +36,7 @@ int main() {
 
    scanf(" %d", &input);
     while (input!=-1){
-        arr = realloc(arr, capacity * sizeof(int));
+        arr = realloc(arr, sizeof(int));
         arr[size-1] = input;
         
         scanf(" %d", &input);
