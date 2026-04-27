@@ -1,3 +1,5 @@
+//Nama/NIM: Aisyah Dahayun Shabirah/13224059
+
 #include <stdio.h>
 #include <stdlib.h>
 
