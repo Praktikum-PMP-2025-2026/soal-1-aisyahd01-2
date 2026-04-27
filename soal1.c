@@ -13,7 +13,7 @@ void sort(int arr[], int n) {
     }
 }
 
-void median(int arr[], int n) {
+void median(int arr[], int n){
     printf("MEDIAN ");
     if (n % 2 == 1) {
         printf("%d\n", arr[n/2]);
@@ -21,18 +21,12 @@ void median(int arr[], int n) {
         int a = arr[n/2 - 1];
         int b = arr[n/2];
         float m = (a + b) / 2.0;
-
-        if ((a + b) % 2 == 0)
-            printf("%.0f\n", m);
-        else
-            printf("%.2f\n", m);
-    }
-}
+        printf("MEDIAN %.2f\n", m);
+}}
 
 int main() {
     int *arr=malloc(sizeof(int));
-    int size = 0; int input; int capacity=2;
-
+    int size = 0; int input; 
 
    scanf(" %d", &input);
     while (input!=-1){
@@ -69,7 +63,6 @@ int main() {
 
 
     
-
 
 
 
