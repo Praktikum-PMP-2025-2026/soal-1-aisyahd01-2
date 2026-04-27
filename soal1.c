@@ -42,14 +42,13 @@ int main (){
         }
         arr[size++] = x;
     }
-
-   printf("SORTED ");
+    printf ("COUNT %d", size);
+    urut (arr, size);
+    printf("SORTED ");
     for (int i = 0; i < size; i++) {
         printf("%d", arr[i]);}
    
-
-    urut (arr, size);
-    printf ("COUNT %d", size);
+    
     median (arr, size); 
     free (arr);
     return 0;
