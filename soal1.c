@@ -42,12 +42,11 @@ int main (){
         }
         arr[size++] = x;
     }
-    printf ("COUNT %d", size);
+    printf ("COUNT %d ", size);
     urut (arr, size);
     printf("SORTED ");
     for (int i = 0; i < size; i++) {
-        printf("%d", arr[i]);
-        if (i < size -1) printf (" ");
+        printf("%d ", arr[i]);
     }
    
     
