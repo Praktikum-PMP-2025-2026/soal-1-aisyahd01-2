@@ -46,7 +46,9 @@ int main (){
     urut (arr, size);
     printf("SORTED ");
     for (int i = 0; i < size; i++) {
-        printf("%d", arr[i]);}
+        printf("%d", arr[i]);
+        if (i < size -1) printf (" ");
+    }
    
     
     median (arr, size); 
